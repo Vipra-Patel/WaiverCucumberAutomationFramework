@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CucumberDemoProject/CucumberDemoProject.iml" filepath="$PROJECT_DIR$/CucumberDemoProject/CucumberDemoProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POSWinAppDriverProject/POSWinAppDriverProject.iml" filepath="$PROJECT_DIR$/POSWinAppDriverProject/POSWinAppDriverProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeleniumCucumberJavaBDDFramework-Practice/SeleniumCucumberJavaBDDFramework-Practice.iml" filepath="$PROJECT_DIR$/SeleniumCucumberJavaBDDFramework-Practice/SeleniumCucumberJavaBDDFramework-Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeleniumProject/SeleniumProject.iml" filepath="$PROJECT_DIR$/SeleniumProject/SeleniumProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WaierCucumberAutomationFramework/WaierCucumberAutomationFramework.iml" filepath="$PROJECT_DIR$/WaierCucumberAutomationFramework/WaierCucumberAutomationFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WaiverApplication/WaiverApplication.iml" filepath="$PROJECT_DIR$/WaiverApplication/WaiverApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WinAppDriverDemo/WinAppDriverDemo.iml" filepath="$PROJECT_DIR$/WinAppDriverDemo/WinAppDriverDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WiniumDemo/WiniumDemo.iml" filepath="$PROJECT_DIR$/WiniumDemo/WiniumDemo.iml" />
+    </modules>
+  </component>
+</project>

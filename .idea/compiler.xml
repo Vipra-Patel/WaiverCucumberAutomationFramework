@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="WiniumDemo" />
+        <module name="SeleniumCucumberJavaBDDFramework-Practice" />
+        <module name="CucumberDemoProject" />
+        <module name="POSWinAppDriverProject" />
+        <module name="WaierCucumberAutomationFramework" />
+        <module name="WinAppDriverDemo" />
+        <module name="WaiverApplication" />
+        <module name="SeleniumProject" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CucumberDemoProject" target="17" />
+      <module name="POSWinAppDriverProject" target="17" />
+      <module name="RestassuredAPITesting_BDD_Project" target="17" />
+      <module name="SeleniumCucumberJavaBDDFramework-Practice" target="17" />
+      <module name="SeleniumProject" target="17" />
+      <module name="WaierCucumberAutomationFramework" target="17" />
+      <module name="WaiverApplication" target="17" />
+      <module name="WinAppDriverDemo" target="17" />
+      <module name="WiniumDemo" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

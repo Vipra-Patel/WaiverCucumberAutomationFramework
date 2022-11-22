@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Waiver Cucumber Execution Report</td>
+              <td>1</td>
+            <td>19 Jul 2022, 10:48</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Duration</th>
+            <th>Average</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">automation.steps.AllowNotificationsSteps.userClickOnAcceptAndContinueBtn()</td>
+              <td>1</td>
+              <td class="duration" data-value="54655500">054ms</td>
+              <td class="duration" data-value="54655500">054ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.AllowNotificationsSteps.userIsSelectEmailNotificationRadioButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="33037400">033ms</td>
+              <td class="duration" data-value="33037400">033ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.AllowNotificationsSteps.userIsSelectSmsNotificationRadioButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="28507300">028ms</td>
+              <td class="duration" data-value="28507300">028ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.AllowNotificationsSteps.verifyUserIsOnAllowNotificationsPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="76014400">076ms</td>
+              <td class="duration" data-value="76014400">076ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.BasicInformationSteps.clickOnAddMoreChildrenButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="39893400">039ms</td>
+              <td class="duration" data-value="39893400">039ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.BasicInformationSteps.clickOnContinueBtn()</td>
+              <td>1</td>
+              <td class="duration" data-value="58290200">058ms</td>
+              <td class="duration" data-value="58290200">058ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.BasicInformationSteps.userFillAddMoreChildrenDetails()</td>
+              <td>1</td>
+              <td class="duration" data-value="343694600">343ms</td>
+              <td class="duration" data-value="343694600">343ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.BasicInformationSteps.userFillAllDetailsOnBasicInformationPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="965238700">965ms</td>
+              <td class="duration" data-value="965238700">965ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.BasicInformationSteps.verifyUserIsOnBasicInformationPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="451337000">451ms</td>
+              <td class="duration" data-value="451337000">451ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.ConfirmationSteps.verifyUserIsOnConfirmationPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="45278500">045ms</td>
+              <td class="duration" data-value="45278500">045ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.EmailVerificationSteps.click_on_continue_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="41694000">041ms</td>
+              <td class="duration" data-value="41694000">041ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.EmailVerificationSteps.user_enter_email()</td>
+              <td>1</td>
+              <td class="duration" data-value="81675800">081ms</td>
+              <td class="duration" data-value="81675800">081ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.EmailVerificationSteps.user_open_website()</td>
+              <td>1</td>
+              <td class="duration" data-value="550829300">550ms</td>
+              <td class="duration" data-value="550829300">550ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.Hooks.cleanUp()</td>
+              <td>1</td>
+              <td class="duration" data-value="192433500">192ms</td>
+              <td class="duration" data-value="192433500">192ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.Hooks.setUp()</td>
+              <td>1</td>
+              <td class="duration" data-value="1965687600">1s 965ms</td>
+              <td class="duration" data-value="1965687600">1s 965ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.ParentalConsentSteps.userClickOnMyselfAndChildRenButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="85352800">085ms</td>
+              <td class="duration" data-value="85352800">085ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.ParentalConsentSteps.verifyUserIsOnParentalConsentPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="108591300">108ms</td>
+              <td class="duration" data-value="108591300">108ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.TermsAndConditionSteps.userClickOnAcceptAndContinueButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="43108700">043ms</td>
+              <td class="duration" data-value="43108700">043ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.TermsAndConditionSteps.userClickOnIAgreeRadioButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="31574400">031ms</td>
+              <td class="duration" data-value="31574400">031ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.TermsAndConditionSteps.userClickOnIAgreeRadioButton(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="33908600">033ms</td>
+              <td class="duration" data-value="33908600">033ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.TermsAndConditionSteps.verifyUserIsOnTermsAndConditionsPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="122806900">122ms</td>
+              <td class="duration" data-value="122806900">122ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>21</td>
+            <td>21</td>
+            <td class="duration">5s 353ms</td>
+            <td class="duration">254ms</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
