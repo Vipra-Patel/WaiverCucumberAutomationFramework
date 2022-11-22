@@ -17,6 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CucumberDemoProject" target="17" />
       <module name="RestassuredAPITesting_BDD_Project" target="17" />
     </bytecodeTargetLevel>
   </component>
